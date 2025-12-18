@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Calculator" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <!-- Override Material Components default purple colors with grey-blue gradient colors -->
+        <item name="colorPrimary">#9AB0C8</item>
+        <item name="colorPrimaryDark">#6A7A8A</item>
+        <item name="colorAccent">#B8C8D8</item>
+        <!-- Prevent Material Components from tinting buttons -->
+        <item name="colorButtonNormal">@android:color/transparent</item>
+        <item name="android:colorControlNormal">@android:color/transparent</item>
+    </style>
+</resources>
